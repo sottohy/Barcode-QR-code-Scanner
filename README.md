@@ -1,4 +1,4 @@
-# Barcode-Scanner
+# Barcode/QR code Scanner
 
 ### Python code to a implement a barcode/QR code scanner from a camera using OpenCV for video capture and display, and pyzbar for decoding barcodes and QR codes.
 
