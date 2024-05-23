@@ -1,6 +1,6 @@
 # Barcode-Scanner
 
-### Python code to a implement a barcode/QR code scanner from a camera. The primary libraries used are OpenCV for video capture and display, and pyzbar for decoding barcodes and QR codes.
+### Python code to a implement a barcode/QR code scanner from a camera using OpenCV for video capture and display, and pyzbar for decoding barcodes and QR codes.
 
 ## Barcode Reader Function
 The barcode_reader() function takes a single frame of video as input. It uses the pyzbar.decode method to detect barcodes within the frame. For each detected barcode, the function extracts the coordinates of the bounding box and decodes the barcode data to a UTF-8 string. It then draws a rectangle around the barcode and displays the decoded information as text on the frame. The barcode information is also written to a file named barcode_result.txt.
