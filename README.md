@@ -22,18 +22,14 @@ Python application to read barcodes/QR codes from a webcam feed. It detects barc
    ```bash
    git clone https://github.com/sottohy/Barcode-QR-code-Scanner.git
    cd Barcode-QR-code-Scanner
-
 2. Install the required packages:
    ```
    pip install opencv-python pyzbar 
-
-
 ## Usage
 
 1. Run the application:
    ```
    python barcode_scanner.py
-
 2.The webcam feed will open, and the application will start detecting barcodes in real-time.
 
 
